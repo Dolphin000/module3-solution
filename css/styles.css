@@ -1,0 +1,80 @@
+body {
+  font-size: 32px;
+  color: solid black;
+  text-align: center;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+ hr {
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-top: 3px solid black;
+
+ }
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  text-align: left;
+  font-family: 'sans-serif', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  font-size: 13px;
+  background-color: gray;
+  margin-top: 10px;
+}
+#nav-list a {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: gray;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+
+  clear: both;
+  margin-top: -30px;
+}
+
+#text  {
+  padding-top: 15px;
+  margin-top: 15px;
+font-size: 16px;
+ background-color: gray;
+ text-align: left;
+}
+#chicken {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
