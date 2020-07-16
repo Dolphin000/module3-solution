@@ -10,8 +10,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   border-top: 3px solid black;
-
- }
+}
 /** HEADER **/
 #header-nav {
   background-color: gray;
@@ -39,7 +38,7 @@ body {
 
 #nav-list {
   font-size: 13px;
-  background-color: gray;
+  background-color: white;
   margin-top: 10px;
 }
 #nav-list a {
@@ -48,10 +47,22 @@ body {
   text-align: center;
 }
 #nav-list a:hover {
-  background: gray;
+  background: white;
+  background-color: white;
+}
+#nav-list a{
+  margin-top: -8px;
+  margin-bottom: -8px;
+  border-style: solid;
+border-width: 2.5px;
+border-color: black;
+background-color: white;
 }
 #nav-list a span {
-  font-size: 1.8em;
+padding-bottom: 5px;
+padding-top: 5px;
+  background-color: white;
+  font-size: 1.5em;
 }
 
 
@@ -63,18 +74,18 @@ body {
   clear: both;
   margin-top: -30px;
 }
-
+#main-content {
+  margin-top: 80px;
+  margin-bottom: 80px; 
+}
 #text  {
-  padding-top: 15px;
-  margin-top: 15px;
 font-size: 16px;
  background-color: gray;
  text-align: left;
 }
-#chicken {
+#lol {
   font-size: 24px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-
 }
